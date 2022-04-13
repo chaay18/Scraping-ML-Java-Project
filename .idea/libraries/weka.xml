@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="weka">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/DOCS_S7/JAVA/Machine-Learning-in-Java-master/MLJ-Chapter3/lib/weka.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

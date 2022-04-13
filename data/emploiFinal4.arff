@@ -1,0 +1,1196 @@
+@relation 'emploiFinal3 (1)'
+
+@attribute ville {Casablanca,Rabat,'Meknès ',Salé,'Marrakech ',Benguerir,'Kenitra ',Agadir,'Fès ','Mohammedia ','Skhirat ',' Safi ','Tanger ','Sala al jadida',' Berrechid ','Oujda ','El Jadida ',Laayoune,'Tout le Maroc','AL HOCEIMA ','Bouskoura ','Errachidia ',' Ain Harrouda ',Guerssif}
+@attribute entreprise {Leyton,'Sitel Group','Attijariwafa bank','Sofrecom Services Maroc',Omnishore,'Lydec et SUEZ','Deloitte Nearshore','ORH Assessment','Hit Radio',Richbond,Atos,'Webhelp Maroc',OBS,Umanis,Majorel,'Maroc Climate and Security (MCS) - Carrier','ARIA Tech','Université Mohammed VI Polytechnique',Msin,CDG,'ALTEN Maroc',Crouzet,Stellantis,Unifitel,'TNC  The Next Clic ','Label\'Vie - Carrefour Market','Excel Management Conseil','AXA Rabat (Axa Services)','La Brigade de Casa','Intelcia ITS','SQLI Maroc','INTM Mediterranée',Aria,'Manpower Agences',Altados,'Al Hoceinia','Adria Business & Technology','Fondation Marocaine pour la Promotion de l\'enseignement préScolaire',Opus.RH,Cnexia,Coficab,'DXC Technology Maroc','Epil Tech Maroc',Eumatech,Welink,Accytime,'AXA Group Operations Maroc','CGI Technologies et Solutions Maroc','HP SEARCH','Reactive Executive',Imacab,'Perenity Software',S3M,Ecolys,Madaef,'BMCI Groupe BNP Paribas','Oceane Consulting','Atlas Pharm','Eca Assurances','Meski Invest - Riva Industries','Leet initiative',Ventec,Preci,Novec,'Isossell Groupe','Econocom Maroc','Comdata Group','LCI Education','Université Internationale de Rabat',Coface,'HPS Maroc',Neosys,'Atlas On Line',Involys,Comicom,Maymana,'SMBL Food',Eqdom,TeamDEV,'Royale Marocaine d\'Assurance',Finéa,'TP-Link Morocco','APM Terminals','Alter Ipso','GO RH Maroc','La Marocaine vie',Mubawab.ma,'McDonald\'s Maroc','Winpa Phone','Bank Of Africa','Safran Nacelles','Foods and Goods',OCBM,'EnerGetic Link','O&D Services','Disty technologies','Auto Nejma Maroc S.A.','Aptiv Maroc  (ex Delphi)',CRIT,'Groupe ODM','CAC (Centrale Automobile Chérifienne)','Air Arabia','Ratp dev Casablanca','Société des Boissons du Maroc','Société Marocaine des Tabacs','Annour Technologies','AKKA Technologies','Sogea Maroc','ATOZMA Services','Consort Maroc','Groupe Adaming',FGT,'Digital Virgo',OFPPT,'Fonds d\'Equipement Communal (FEC)','Groupe Renault','Safran Engineering Services Maroc','Générale routière','Groupe Assu 2000',Karinvest,Alumetaux,'Rifl Biometrics','Fondation Arrawaj','Société de Développement Local Nouaceur Développement','A.LAZRAK Immobilier','KLK Khayatey Living','Pharma Pilot',Dekra}
+@attribute secteur_act {' Aéronautique / Spatial',' Informatique',' Centre d\'appel',' Banque / Finance',' BTP / Génie Civil',' Autres services',' Audiovisuel',' Agence pub / Marketing Direct',' Conseil / Etudes',' Comptabilité / Audit',' Telecom',' Electro-mécanique / Mécanique',' Autres Industries',' Automobile / Motos / Cycles',' Offshoring / Nearshoring',' Distribution',' Assurance / Courtage',' Internet / Multimédia',' Recrutement / Intérim',' Cosmétique / Parfumerie / Luxe',' Energie',' Agriculture / Environnement',' Agroalimentaire',' Immobilier / Promoteur / Agence',' Enseignement / Formation',' Transport / Messagerie / Logistique',' Pharmacie / Santé',' Juridique / Cabinet d’avocats',' Métallurgie / Sidérurgie'}
+@attribute fonction {' Méthodes / Process / Industrialisation',' Gestion projet / Etudes / R&D',' Administration des ventes / SAV',' Banque',' Call Centers',' Informatique / Electronique',' Communication / Publicité / RP',' Télécoms / Réseaux',' Informatique / Electronique / Multimédia / Internet',' RH / Personnel / Formation',' Avocat / Juriste / Fiscaliste',' Gestion / Comptabilité / Finance',' Logistique / Transport',' Audit / Conseil',' Commercial / Vente / Export',' Achats / Supply Chain',' Marketing',' Assurance',' Immobilier / Promotion',' Journalisme / Traduction',' Distribution',' Production / Qualité / Sécurité / Maintenance',' Assistanat de Direction / Services Généraux',' Travaux / Chantiers / BTP',' Agriculture',' Caméraman / Monteur / Preneur de son',' Environnement',' Enseignement',' Santé / Social',' Multimédia / Internet',' Hôtellerie / Restauration',' Médical / Paramédical'}
+@attribute experience {' De 1 à 3 ans',' Moins de 1 an',' De 5 à 10 ans',' De 10 à 20 ans',' De 3 à 5 ans',' Débutant'}
+@attribute niv_etude {' Bac +4',' Bac +5 et plus',' Bac',' Bac +2',' Bac +3',' Qualification avant Bac',' Autodidacte',' Bac +1'}
+@attribute contrat {' CDI',' Stage',' Autre',' CDD',' Freelance'}
+@attribute titre {'Ingénieur ','Conseiller Technique ','Conseiller Client',Analyste,Responsable,'Chef de Projet ','Operations Manager ','Ingénieur Java J2EE','Architecte IT','Team Lead ',Auditeur,'Chargé de Communication ',Stagiaire,'Infographiste ','Développeur ','Ingénieur infrastructure',Consultant,'Ingénieur Support Applicatif',Technicien,'Tech Lead','Responsable RH ','Téléconseiller ','Ingénieur Etude et Développement','Administrateur IT','Conseiller Commercial ',Commercial,'Juriste ','Conseiller en Assurance',Comptable,'Ingénieur Testeur','Chargé Administratif',Coordinateur,'Gestionnaire ',Assistant,'Chef de projet IT ',Acheteur,'Expert Technique ','Ingénieur Informatique ',Manager,'Formateur ','Ingénieur DevOps ','Ingénieur Réseau et Sécurité','Concepteur Développeur ','Contrôleur de Gestion','Scrum Master ','Référent technique ','Consultant IT',Journaliste,'Chargé de Développement','Chargé de Sécurité ','Opérateur Agricole ','Responsable régional ','Directeur ','Responsable Commercial','Chargé de Recouvrement','Chargés d\'Etudes','Responsable Marketing ',Cadre,'Responsable IT ','Chargé d\'Affaires ','Responsable Administratif ','Animateur ','Community Manager ','Infirmier ','Chef d\'équipe ','Administrateur des ventes','Contrôleur ','Chargé de Mission ','Chargé d\'Approvisionnement','Chef de Service ','Expert UX/UI ','Responsable maintenance ','Ingénieur Système','Business Process Owner ','Professeur ','Délégué médical','Responsable Achats ','Chargé des Relations Entreprises','Agent de facturation ','Hôtesse d\'Accueil ','Enseignant de sport polyvalent ','Dessinateur industriel ','Chef Atelier'}
+
+@data
+Casablanca,Leyton,' Aéronautique / Spatial',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +4',' CDI','Ingénieur '
+Casablanca,Leyton,' Informatique',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Conseiller Technique '
+Rabat,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Conseiller Client'
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Operations Manager '
+Casablanca,Omnishore,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Casablanca,Omnishore,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Architecte IT'
+Casablanca,Omnishore,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Team Lead '
+Casablanca,Omnishore,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Architecte IT'
+Casablanca,'Lydec et SUEZ',' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'ORH Assessment',' Autres services',' Communication / Publicité / RP',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé de Communication '
+Rabat,'Hit Radio',' Audiovisuel',' Télécoms / Réseaux',' Débutant',' Bac +2',' Stage',Stagiaire
+Casablanca,Richbond,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +2',' CDI','Infographiste '
+Casablanca,'Lydec et SUEZ',' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +5 et plus',' CDI','Ingénieur infrastructure'
+Casablanca,'Deloitte Nearshore',' Informatique',' Gestion projet / Etudes / R&D',' Moins de 1 an',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Rabat,'Webhelp Maroc',' Informatique',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +3',' CDI',Analyste
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Meknès ','Webhelp Maroc',' Centre d\'appel',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +4',' CDI','Responsable RH '
+Casablanca,Umanis,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Téléconseiller '
+Casablanca,Umanis,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Téléconseiller '
+Casablanca,Umanis,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,Umanis,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,Umanis,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Umanis,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Umanis,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Rabat,'Webhelp Maroc',' Banque / Finance',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Commercial '
+Salé,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre',Commercial
+'Marrakech ','Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Client'
+Casablanca,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' Moins de 1 an',' Bac +2',' CDI','Conseiller Client'
+Casablanca,'Sitel Group',' Autres services',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+'Marrakech ',Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+'Marrakech ',Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Commercial '
+'Marrakech ',Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+Casablanca,Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+Casablanca,Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller en Assurance'
+Casablanca,Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+Casablanca,Majorel,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDD','Conseiller Client'
+Rabat,'Webhelp Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Sitel Group',' Centre d\'appel',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Conseil / Etudes',' RH / Personnel / Formation',' Débutant',' Bac +4',' Stage','Responsable RH '
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Informatique / Electronique / Multimédia / Internet',' Débutant',' Bac +4',' Stage',Stagiaire
+Casablanca,'ARIA Tech',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'ARIA Tech',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Rabat,'Webhelp Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +2',' CDI','Chargé Administratif'
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +2',' CDI',Responsable
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Coordinateur
+'Marrakech ','Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Coordinateur
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 5 à 10 ans',' Bac +3',' CDI','Gestionnaire '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +3',' CDI',Coordinateur
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Logistique / Transport',' De 3 à 5 ans',' Bac +3',' CDI',Assistant
+Casablanca,Msin,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,CDG,' Banque / Finance',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Auditeur
+'Kenitra ','Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Commercial '
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI',Commercial
+Rabat,'Webhelp Maroc',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Comptable
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Commercial '
+'Fès ','ALTEN Maroc',' Telecom',' Télécoms / Réseaux',' Débutant',' Bac +4',' Autre','Ingénieur Support Applicatif'
+'Marrakech ','Webhelp Maroc',' Centre d\'appel',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +3',' CDI','Responsable RH '
+Casablanca,Crouzet,' Electro-mécanique / Mécanique',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,Richbond,' Autres Industries',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Acheteur
+'Mohammedia ',Richbond,' Autres Industries',' Logistique / Transport',' De 1 à 3 ans',' Bac +3',' CDI','Gestionnaire '
+Rabat,OBS,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur infrastructure'
+Rabat,OBS,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Télécoms / Réseaux',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Rabat,OBS,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur infrastructure'
+Rabat,OBS,' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Team Lead '
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Expert Technique '
+'Kenitra ',Stellantis,' Automobile / Motos / Cycles',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +3',' CDI',Manager
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 3 à 5 ans',' Bac +2',' CDI',Analyste
+Casablanca,Unifitel,' Offshoring / Nearshoring',' Call Centers',' De 3 à 5 ans',' Bac +2',' CDI',Manager
+Casablanca,Leyton,' Conseil / Etudes',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Leyton,' Conseil / Etudes',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'TNC  The Next Clic ',' Agence pub / Marketing Direct',' Marketing',' Débutant',' Bac +4',' Stage','Chargé de Communication '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +5 et plus',' CDI','Responsable RH '
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' RH / Personnel / Formation',' Moins de 1 an',' Bac +5 et plus',' CDI','Formateur '
+Rabat,'Excel Management Conseil',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Rabat,'Excel Management Conseil',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,Majorel,' Autres services',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+Rabat,'AXA Rabat (Axa Services)',' Assurance / Courtage',' Call Centers',' De 5 à 10 ans',' Bac +2',' CDI',Manager
+Casablanca,'La Brigade de Casa',' Agence pub / Marketing Direct',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac',' CDI',Commercial
+Casablanca,'Intelcia ITS',' Informatique',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Rabat,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Crouzet,' Autres Industries',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Expert Technique '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'INTM Mediterranée',' Banque / Finance',' Assurance',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'INTM Mediterranée',' Banque / Finance',' Assurance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Casablanca,'TNC  The Next Clic ',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,'TNC  The Next Clic ',' Informatique',' Informatique / Electronique / Multimédia / Internet',' Débutant',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Aria,' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'TNC  The Next Clic ',' Internet / Multimédia',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Scrum Master '
+' Safi ','Attijariwafa bank',' Banque / Finance',' Banque',' Débutant',' Bac +5 et plus',' CDI','Conseiller Client'
+'Tanger ','Manpower Agences',' Autres services',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI','Gestionnaire '
+Rabat,'Manpower Agences',' BTP / Génie Civil',' Immobilier / Promotion',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur Testeur'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Testeur'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Développeur '
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Consultant
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'TNC  The Next Clic ',' Agence pub / Marketing Direct',' Gestion / Comptabilité / Finance',' Débutant',' Bac +3',' Stage',Assistant
+Casablanca,Majorel,' Autres Industries',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +2',' CDI',Analyste
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+'Tanger ','Al Hoceinia',' BTP / Génie Civil',' Immobilier / Promotion',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Meknès ','Webhelp Maroc',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Commercial '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Référent technique '
+Rabat,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Ingénieur DevOps '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Concepteur Développeur '
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' CDI','Chargé Administratif'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Concepteur Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Développeur '
+Casablanca,'Adria Business & Technology',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Consultant IT'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Développeur '
+Rabat,'Webhelp Maroc',' Informatique',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Agadir,'Webhelp Maroc',' Centre d\'appel',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +4',' CDI','Responsable RH '
+'Tanger ','ORH Assessment',' Assurance / Courtage',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Conseiller Commercial '
+Casablanca,'Adria Business & Technology',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'ORH Assessment',' Assurance / Courtage',' Call Centers',' De 3 à 5 ans',' Bac +3',' CDI',Commercial
+Rabat,'Hit Radio',' Audiovisuel',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+Rabat,'Hit Radio',' Audiovisuel',' Journalisme / Traduction',' De 1 à 3 ans',' Bac +3',' CDD',Journaliste
+Rabat,'Hit Radio',' Audiovisuel',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +2',' CDI','Développeur '
+Rabat,'Hit Radio',' Audiovisuel',' Journalisme / Traduction',' Débutant',' Bac +3',' Stage',Journaliste
+Rabat,'Fondation Marocaine pour la Promotion de l\'enseignement préScolaire',' Recrutement / Intérim',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +3',' CDD','Responsable RH '
+Rabat,'Fondation Marocaine pour la Promotion de l\'enseignement préScolaire',' Recrutement / Intérim',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDD','Responsable RH '
+Rabat,'ALTEN Maroc',' Informatique',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+'Fès ','ALTEN Maroc',' Telecom',' Télécoms / Réseaux',' Débutant',' Bac +4',' Autre','Ingénieur Support Applicatif'
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé de Développement'
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' CDI','Chargé de Développement'
+Rabat,'ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' Débutant',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,Opus.RH,' Distribution',' Avocat / Juriste / Fiscaliste',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Juriste '
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Distribution',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Manager
+'Fès ',Cnexia,' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Acheteur
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+'Tanger ',Coficab,' Banque / Finance',' Audit / Conseil',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Auditeur
+Rabat,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI',Consultant
+Casablanca,'Epil Tech Maroc',' Cosmétique / Parfumerie / Luxe',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Rabat,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Référent technique '
+'Fès ',Cnexia,' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+'Fès ',Cnexia,' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Casablanca,Eumatech,' Banque / Finance',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Welink,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Consultant IT'
+Rabat,Accytime,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Client'
+Rabat,'AXA Group Operations Maroc',' Informatique',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé de Sécurité '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Marketing',' De 3 à 5 ans',' Qualification avant Bac',' CDI',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Audiovisuel',' Marketing',' De 3 à 5 ans',' Qualification avant Bac',' CDI',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Assistanat de Direction / Services Généraux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +3',' CDI',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Gestion / Comptabilité / Finance',' Moins de 1 an',' Bac +5 et plus',' CDI',Comptable
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Marketing',' De 3 à 5 ans',' Bac +3',' CDI','Infographiste '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Casablanca,Unifitel,' Centre d\'appel',' Banque',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,Unifitel,' Offshoring / Nearshoring',' Call Centers',' De 3 à 5 ans',' Bac +2',' CDI',Manager
+Casablanca,'HP SEARCH',' Recrutement / Intérim',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +3',' CDI','Responsable RH '
+Casablanca,'HP SEARCH',' Recrutement / Intérim',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +3',' CDI','Responsable RH '
+Casablanca,'ORH Assessment',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Deloitte Nearshore',' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'Reactive Executive',' Automobile / Motos / Cycles',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,Imacab,' Automobile / Motos / Cycles',' Audit / Conseil',' De 1 à 3 ans',' Bac +4',' CDI','Responsable RH '
+Casablanca,'Lydec et SUEZ',' Energie',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Crouzet,' Aéronautique / Spatial',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,'Manpower Agences',' Autres Industries',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Fès ','Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Commercial '
+Agadir,'Manpower Agences',' Centre d\'appel',' Call Centers',' De 3 à 5 ans',' Bac +4',' CDI',Manager
+Rabat,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,Majorel,' Offshoring / Nearshoring',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'INTM Mediterranée',' Banque / Finance',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur Testeur'
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Atos,' Informatique',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,'ORH Assessment',' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Expert Technique '
+Rabat,Atos,' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +5 et plus',' Stage','Développeur '
+Casablanca,'INTM Mediterranée',' Informatique',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'SQLI Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Architecte IT'
+Casablanca,'Perenity Software',' Informatique',' Informatique / Electronique',' Débutant',' Bac +4',' Stage','Ingénieur '
+Casablanca,'Adria Business & Technology',' Informatique',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' Stage','Responsable RH '
+Rabat,Aria,' Centre d\'appel',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +3',' CDI',Assistant
+'Fès ','ALTEN Maroc',' Electro-mécanique / Mécanique',' Télécoms / Réseaux',' Débutant',' Bac +2',' Autre',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Agriculture / Environnement',' Agriculture',' Moins de 1 an',' Qualification avant Bac',' CDI',Technicien
+Casablanca,'Intelcia ITS',' Informatique',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Rabat,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Rabat,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Rabat,'Intelcia ITS',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Téléconseiller '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Caméraman / Monteur / Preneur de son',' De 3 à 5 ans',' Qualification avant Bac',' CDD','Infographiste '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Acheteur
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Agriculture',' Moins de 1 an',' Qualification avant Bac',' CDI','Opérateur Agricole '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Agriculture',' De 1 à 3 ans',' Qualification avant Bac',' CDD','Opérateur Agricole '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Agriculture',' De 3 à 5 ans',' Bac +2',' CDD',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Agriculture / Environnement',' Agriculture',' De 3 à 5 ans',' Bac +2',' CDI','Opérateur Agricole '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Agriculture',' Moins de 1 an',' Qualification avant Bac',' CDI','Opérateur Agricole '
+Benguerir,'Université Mohammed VI Polytechnique',' Agriculture / Environnement',' Agriculture',' De 3 à 5 ans',' Qualification avant Bac',' CDD','Opérateur Agricole '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Agriculture',' Moins de 1 an',' Qualification avant Bac',' CDI',Technicien
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur Réseau et Sécurité'
+Casablanca,'Lydec et SUEZ',' Energie',' Environnement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Référent technique '
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Casablanca,S3M,' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +4',' CDI','Responsable régional '
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac +2',' CDI','Conseiller Client'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+'Tanger ',S3M,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +4',' CDI',Analyste
+'Mohammedia ',Ecolys,' Agroalimentaire',' Communication / Publicité / RP',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Rabat,Madaef,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +4',' CDI','Chargé de Communication '
+Casablanca,'TNC  The Next Clic ',' Internet / Multimédia',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Directeur '
+Casablanca,Crouzet,' Autres Industries',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' Autre','Responsable RH '
+Salé,Welink,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' Freelance','Développeur '
+Casablanca,'HP SEARCH',' BTP / Génie Civil',' Banque',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable Commercial'
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Team Lead '
+Casablanca,'BMCI Groupe BNP Paribas',' Autres Industries',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+' Berrechid ','Atlas Pharm',' Offshoring / Nearshoring',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Scrum Master '
+'Oujda ','Eca Assurances',' Assurance / Courtage',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,Eumatech,' Immobilier / Promoteur / Agence',' Assistanat de Direction / Services Généraux',' De 5 à 10 ans',' Bac +4',' CDI',Manager
+Rabat,'Excel Management Conseil',' Informatique',' Audit / Conseil',' De 10 à 20 ans',' Bac +4',' Freelance',Auditeur
+Casablanca,'Perenity Software',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' Stage','Ingénieur Etude et Développement'
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Conseiller Client'
+'El Jadida ','Meski Invest - Riva Industries',' Autres Industries',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Leyton,' Comptabilité / Audit',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +3',' CDI','Gestionnaire '
+' Safi ','Leet initiative',' Enseignement / Formation',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' CDI','Formateur '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI','Team Lead '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDD','Chargé de Recouvrement'
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Architecte IT'
+Casablanca,'Manpower Agences',' Transport / Messagerie / Logistique',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +3',' Autre',Commercial
+Casablanca,'Lydec et SUEZ',' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +3',' CDI','Chargés d\'Etudes'
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,Crouzet,' Autres Industries',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'Lydec et SUEZ',' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur DevOps '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Ventec,' Agence pub / Marketing Direct',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Marketing '
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Agadir,Novec,' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 10 à 20 ans',' Bac +2',' CDI',Cadre
+Rabat,'Hit Radio',' Audiovisuel',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' Stage',Stagiaire
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'BMCI Groupe BNP Paribas',' Informatique',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Banque',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable IT '
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Responsable IT '
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Banque',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+'Mohammedia ',Ecolys,' Agroalimentaire',' Marketing',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Développeur '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Salé,'AXA Rabat (Axa Services)',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Ingénieur Testeur'
+Casablanca,'BMCI Groupe BNP Paribas',' Autres Industries',' RH / Personnel / Formation',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI',Consultant
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Consultant IT'
+Casablanca,Preci,' Informatique',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Directeur '
+Rabat,CDG,' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Gestionnaire '
+Rabat,'Isossell Groupe',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Autodidacte',' CDI','Chargé d\'Affaires '
+Casablanca,Unifitel,' Centre d\'appel',' Banque',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+'Sala al jadida','Econocom Maroc',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +2',' CDI',Technicien
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Qualification avant Bac',' CDI','Téléconseiller '
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'LCI Education',' Enseignement / Formation',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+Rabat,'Université Internationale de Rabat',' Agence pub / Marketing Direct',' Marketing',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé de Communication '
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Umanis,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,'TNC  The Next Clic ',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' CDI','Développeur '
+Rabat,'Sitel Group',' Centre d\'appel',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Client'
+Rabat,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Client'
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+Rabat,'Sitel Group',' Centre d\'appel',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +3',' CDI','Operations Manager '
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac +2',' CDI','Conseiller Client'
+Rabat,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+Rabat,Aria,' Centre d\'appel',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Commercial '
+Rabat,'Isossell Groupe',' Offshoring / Nearshoring',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Commercial '
+Rabat,Aria,' Centre d\'appel',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +3',' CDI',Commercial
+Rabat,Aria,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDI','Chargé d\'Affaires '
+Rabat,Aria,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDI','Téléconseiller '
+Casablanca,'ORH Assessment',' Autres services',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +3',' CDI','Responsable Administratif '
+Rabat,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +3',' CDI',Analyste
+'Sala al jadida','Econocom Maroc',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +2',' CDI',Technicien
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Casablanca,Coface,' Assurance / Courtage',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'HPS Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'BMCI Groupe BNP Paribas',' Autres Industries',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Rabat,'Webhelp Maroc',' Informatique',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Téléconseiller '
+Rabat,Accytime,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Chef de Projet '
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' Débutant',' Qualification avant Bac',' CDI','Téléconseiller '
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Expert Technique '
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' Débutant',' Qualification avant Bac',' CDI','Téléconseiller '
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Rabat,'Webhelp Maroc',' Telecom',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Rabat,'Webhelp Maroc',' Telecom',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,'Comdata Group',' Centre d\'appel',' Administration des ventes / SAV',' Moins de 1 an',' Qualification avant Bac',' CDI','Conseiller Client'
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Qualification avant Bac',' CDI','Téléconseiller '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+'Fès ',Cnexia,' Informatique',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Altados,' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Consultant IT'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Leyton,' Conseil / Etudes',' Environnement',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargés d\'Etudes'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Casablanca,Leyton,' Conseil / Etudes',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Leyton,' Conseil / Etudes',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Meknès ','Meski Invest - Riva Industries',' Comptabilité / Audit',' Audit / Conseil',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Auditeur
+'Meknès ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Audit / Conseil',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+'Meknès ','Meski Invest - Riva Industries',' Distribution',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI','Responsable Commercial'
+Benguerir,'Université Mohammed VI Polytechnique',' Autres Industries',' Enseignement',' De 5 à 10 ans',' Bac +2',' CDI',Technicien
+Casablanca,Altados,' Conseil / Etudes',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Administration des ventes / SAV',' De 3 à 5 ans',' Bac +4',' CDI',Assistant
+Rabat,Neosys,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Atlas On Line',' Banque / Finance',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Client'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Salé,Novec,' BTP / Génie Civil',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'Hit Radio',' Audiovisuel',' Journalisme / Traduction',' De 1 à 3 ans',' Bac +5 et plus',' Autre','Animateur '
+Casablanca,Involys,' Informatique',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Kenitra ',Comicom,' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI','Conseiller Commercial '
+Casablanca,'LCI Education',' Agence pub / Marketing Direct',' Marketing',' De 1 à 3 ans',' Bac +4',' CDI','Community Manager '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' Moins de 1 an',' Bac +5 et plus',' CDI','Chef de Projet '
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique',' Débutant',' Bac +2',' Autre',Technicien
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' Moins de 1 an',' Bac +2',' CDI',Technicien
+Laayoune,'Manpower Agences',' BTP / Génie Civil',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +4',' CDI',Assistant
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +2',' CDI','Chargé de Sécurité '
+Laayoune,'Manpower Agences',' BTP / Génie Civil',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Expert Technique '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Expert Technique '
+Casablanca,'Comdata Group',' Centre d\'appel',' Call Centers',' De 5 à 10 ans',' Bac +1',' CDI',Responsable
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Testeur'
+'Fès ',Cnexia,' Pharmacie / Santé',' Santé / Social',' De 1 à 3 ans',' Bac +2',' CDI','Infirmier '
+'Fès ',Cnexia,' Autres services',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé Administratif'
+Casablanca,Maymana,' Agroalimentaire',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +4',' CDI','Chef d\'équipe '
+Casablanca,'AXA Rabat (Axa Services)',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargés d\'Etudes'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Consultant IT'
+'Mohammedia ','SMBL Food',' Distribution',' Administration des ventes / SAV',' De 3 à 5 ans',' Bac +4',' CDI','Administrateur des ventes'
+Casablanca,Eqdom,' Banque / Finance',' Banque',' Moins de 1 an',' Bac +3',' Autre','Conseiller Client'
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+'Fès ','ALTEN Maroc',' Electro-mécanique / Mécanique',' Méthodes / Process / Industrialisation',' Moins de 1 an',' Bac +5 et plus',' CDI','Concepteur Développeur '
+Rabat,'ALTEN Maroc',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' Moins de 1 an',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Rabat,'ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +2',' CDI','Développeur '
+Rabat,'ALTEN Maroc',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' Moins de 1 an',' Bac +2',' CDI',Technicien
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,Atos,' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur '
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Team Lead '
+Casablanca,'Label\'Vie - Carrefour Market',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Tech Lead'
+'Marrakech ',TeamDEV,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Marrakech ',TeamDEV,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Développeur '
+Casablanca,'ARIA Tech',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'ARIA Tech',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'INTM Mediterranée',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'TNC  The Next Clic ',' Informatique',' Multimédia / Internet',' Débutant',' Bac +4',' Stage','Chef de Projet '
+Casablanca,'Royale Marocaine d\'Assurance',' Autres services',' Assurance',' Débutant',' Bac +3',' CDD',Assistant
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Marketing',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Finéa,' Banque / Finance',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Auditeur
+Rabat,'ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'ORH Assessment',' Autres services',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'ORH Assessment',' Agriculture / Environnement',' Agriculture',' De 3 à 5 ans',' Bac +4',' CDI','Chargé de Mission '
+Rabat,'ALTEN Maroc',' Informatique',' Logistique / Transport',' Débutant',' Bac +5 et plus',' CDI','Chargé d\'Approvisionnement'
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Tanger ',Opus.RH,' Autres services',' Communication / Publicité / RP',' De 1 à 3 ans',' Bac +3',' CDI','Infographiste '
+Casablanca,'TP-Link Morocco',' Distribution',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI',Commercial
+'Marrakech ','TP-Link Morocco',' Distribution',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI',Commercial
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Logistique / Transport',' De 3 à 5 ans',' Bac +3',' CDI',Technicien
+'Marrakech ','Alter Ipso',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,Accytime,' Offshoring / Nearshoring',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Lydec et SUEZ',' Energie',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Service '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' Freelance',Consultant
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Expert Technique '
+'Kenitra ','ORH Assessment',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Comptable
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Logistique / Transport',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Operations Manager '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'ORH Assessment',' Autres services',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Concepteur Développeur '
+'Tanger ',Coficab,' Automobile / Motos / Cycles',' Logistique / Transport',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Client'
+Casablanca,'GO RH Maroc',' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Lydec et SUEZ',' Energie',' Travaux / Chantiers / BTP',' De 1 à 3 ans',' Bac +3',' Autre','Chargés d\'Etudes'
+Casablanca,'Lydec et SUEZ',' Energie',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Casablanca,Involys,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Involys,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,Involys,' Informatique',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,Involys,' Informatique',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +3',' CDI',Assistant
+Casablanca,Involys,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Perenity Software',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'Sitel Group',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Réseau et Sécurité'
+Rabat,Welink,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Consultant IT'
+Casablanca,Preci,' Informatique',' Commercial / Vente / Export',' De 10 à 20 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Preci,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Sitel Group',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Développeur '
+Casablanca,Leyton,' Autres Industries',' Audit / Conseil',' Débutant',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'La Marocaine vie',' Assurance / Courtage',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +2',' CDI','Contrôleur '
+Casablanca,'BMCI Groupe BNP Paribas',' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Responsable IT '
+Casablanca,Mubawab.ma,' Immobilier / Promoteur / Agence',' Administration des ventes / SAV',' De 3 à 5 ans',' Bac +4',' CDI','Administrateur des ventes'
+Casablanca,'Sitel Group',' Autres services',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+Salé,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Téléconseiller '
+Casablanca,'Perenity Software',' Informatique',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Fès ','CGI Technologies et Solutions Maroc',' Banque / Finance',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +3',' CDI','Chargé Administratif'
+Casablanca,Mubawab.ma,' Conseil / Etudes',' Immobilier / Promotion',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Rabat,'AXA Rabat (Axa Services)',' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +2',' CDI','Gestionnaire '
+Salé,'AXA Rabat (Axa Services)',' Assurance / Courtage',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +2',' CDI',Commercial
+Casablanca,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' Moins de 1 an',' Bac +2',' CDI','Conseiller Client'
+Rabat,OBS,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Informatique',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,OBS,' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Informatique '
+Casablanca,'TNC  The Next Clic ',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI',Consultant
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Laayoune,'McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+' Berrechid ','McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+'Marrakech ','McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+Casablanca,'McDonald\'s Maroc',' Agroalimentaire',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Tout le Maroc','McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Assistant
+Agadir,'McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Winpa Phone',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +2',' CDI','Téléconseiller '
+Casablanca,'Sitel Group',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Ingénieur '
+Rabat,Aria,' Centre d\'appel',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,Aria,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +3',' CDI','Infographiste '
+Casablanca,Aria,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +3',' CDI','Expert UX/UI '
+Rabat,Aria,' Centre d\'appel',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Formateur '
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Client'
+Rabat,Aria,' Centre d\'appel',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Chargé de Développement'
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Casablanca,Coface,' Assurance / Courtage',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI',Assistant
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +2',' CDI','Gestionnaire '
+Casablanca,Mubawab.ma,' Immobilier / Promoteur / Agence',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Assistant
+Casablanca,Aria,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +3',' CDI','Expert UX/UI '
+'Oujda ','Intelcia ITS',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Conseiller Technique '
+'AL HOCEIMA ','Bank Of Africa',' Banque / Finance',' Banque',' Débutant',' Bac +3',' CDI','Conseiller Commercial '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Crouzet,' Electro-mécanique / Mécanique',' Méthodes / Process / Industrialisation',' Moins de 1 an',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Chef de Projet '
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI',Consultant
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Testeur'
+Rabat,'Sitel Group',' Centre d\'appel',' Administration des ventes / SAV',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+'Mohammedia ',Novec,' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 5 à 10 ans',' Bac +2',' CDD',Technicien
+Casablanca,Crouzet,' Electro-mécanique / Mécanique',' Achats / Supply Chain',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Crouzet,' Electro-mécanique / Mécanique',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +3',' CDI',Technicien
+Casablanca,'La Marocaine vie',' Assurance / Courtage',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'Safran Nacelles',' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable maintenance '
+Rabat,Neosys,' Informatique',' RH / Personnel / Formation',' Moins de 1 an',' Bac +3',' Stage',Stagiaire
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'BMCI Groupe BNP Paribas',' Recrutement / Intérim',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Tout le Maroc','Foods and Goods',' Distribution',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Expert Technique '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' Freelance',Manager
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur Système'
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Achats / Supply Chain',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Directeur '
+'Mohammedia ','Manpower Agences',' Distribution',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,'TNC  The Next Clic ',' Conseil / Etudes',' Communication / Publicité / RP',' De 1 à 3 ans',' Bac +3',' CDI','Community Manager '
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'TNC  The Next Clic ',' Agence pub / Marketing Direct',' Marketing',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +3',' CDI','Ingénieur '
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' Immobilier / Promotion',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,'Sitel Group',' Centre d\'appel',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDD',Comptable
+Casablanca,'Adria Business & Technology',' Recrutement / Intérim',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'Isossell Groupe',' Centre d\'appel',' Call Centers',' Débutant',' Bac +3',' CDI','Téléconseiller '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur DevOps '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +3',' CDI',Analyste
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Business Process Owner '
+Rabat,'AXA Group Operations Maroc',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +3',' CDD','Gestionnaire '
+Casablanca,Neosys,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Rabat,'Webhelp Maroc',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'ORH Assessment',' Pharmacie / Santé',' Production / Qualité / Sécurité / Maintenance',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Directeur '
+'Tanger ',Coficab,' Autres Industries',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Tanger ','Manpower Agences',' Transport / Messagerie / Logistique',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
+Casablanca,Finéa,' Banque / Finance',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +4',' CDI',Assistant
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Tanger ',Coficab,' Automobile / Motos / Cycles',' Logistique / Transport',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,'SQLI Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,OCBM,' Comptabilité / Audit',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Administratif '
+Casablanca,'Reactive Executive',' Agence pub / Marketing Direct',' Commercial / Vente / Export',' Débutant',' Bac +4',' Stage','Chargé de Communication '
+'Tanger ',Comicom,' Automobile / Motos / Cycles',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +2',' CDI',Assistant
+'Tanger ',Comicom,' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI','Conseiller Commercial '
+Casablanca,Comicom,' Agriculture / Environnement',' Agriculture',' De 1 à 3 ans',' Bac +2',' Autre',Commercial
+'Fès ',Comicom,' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI','Conseiller Commercial '
+'Fès ',Comicom,' Automobile / Motos / Cycles',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +2',' CDI',Assistant
+Casablanca,Comicom,' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Expert Technique '
+'El Jadida ','Meski Invest - Riva Industries',' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +2',' CDI','Animateur '
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Intelcia ITS',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI',Commercial
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Administration des ventes / SAV',' Débutant',' Bac',' Autre','Conseiller Client'
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Administration des ventes / SAV',' Débutant',' Bac',' Autre','Conseiller Client'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Casablanca,'HPS Maroc',' Informatique',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Sala al jadida','Oceane Consulting',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Casablanca,'Safran Nacelles',' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Lydec et SUEZ',' Banque / Finance',' Environnement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'ORH Assessment',' Autres services',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI',Commercial
+Casablanca,'La Marocaine vie',' Assurance / Courtage',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+'Sala al jadida','Econocom Maroc',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +2',' CDI',Technicien
+Rabat,'Webhelp Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +2',' CDI','Développeur '
+Casablanca,Leyton,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Leyton,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+'Fès ','ALTEN Maroc',' Informatique',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Atos,' Informatique',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Tanger ','Manpower Agences',' Automobile / Motos / Cycles',' Administration des ventes / SAV',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur des ventes'
+Casablanca,'Manpower Agences',' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Directeur '
+Casablanca,'Manpower Agences',' Agence pub / Marketing Direct',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+'Bouskoura ','Foods and Goods',' Distribution',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +2',' CDI',Assistant
+Casablanca,Eumatech,' Conseil / Etudes',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Meknès ','Meski Invest - Riva Industries',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +3',' CDI',Comptable
+'Meknès ','Meski Invest - Riva Industries',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'Winpa Phone',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller en Assurance'
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDD','Chargé d\'Approvisionnement'
+Casablanca,'Lydec et SUEZ',' Energie',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé Administratif'
+Casablanca,'INTM Mediterranée',' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,'Manpower Agences',' Recrutement / Intérim',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' CDD','Responsable RH '
+Casablanca,'EnerGetic Link',' Informatique',' Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,'Safran Nacelles',' Autres Industries',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Aria,' Centre d\'appel',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,'Sitel Group',' Centre d\'appel',' Médical / Paramédical',' De 1 à 3 ans',' Bac +2',' CDI','Infirmier '
+Casablanca,'Label\'Vie - Carrefour Market',' Conseil / Etudes',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Skhirat ','Label\'Vie - Carrefour Market',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Ingénieur Support Applicatif'
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Agadir,'Manpower Agences',' Pharmacie / Santé',' Médical / Paramédical',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé d\'Affaires '
+Casablanca,'Manpower Agences',' Pharmacie / Santé',' Médical / Paramédical',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé d\'Affaires '
+'Kenitra ','Webhelp Maroc',' Pharmacie / Santé',' Santé / Social',' De 1 à 3 ans',' Bac +2',' CDI','Infirmier '
+Casablanca,'ORH Assessment',' Juridique / Cabinet d’avocats',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Moins de 1 an',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Manpower Agences',' Autres Industries',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +3',' CDD',Assistant
+Casablanca,'Safran Nacelles',' Autres Industries',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Gestionnaire '
+Casablanca,'O&D Services',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +2',' CDI','Développeur '
+Casablanca,Maymana,' Agroalimentaire',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,Atos,' Informatique',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Casablanca,Aria,' Centre d\'appel',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'ORH Assessment',' Juridique / Cabinet d’avocats',' Assistanat de Direction / Services Généraux',' De 5 à 10 ans',' Bac +3',' CDI',Assistant
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Scrum Master '
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Rabat,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+'Tout le Maroc','Label\'Vie - Carrefour Market',' Distribution',' Distribution',' De 1 à 3 ans',' Bac +2',' CDI',Responsable
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Casablanca,'Deloitte Nearshore',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
+Casablanca,'ORH Assessment',' Enseignement / Formation',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Disty technologies',' Distribution',' Marketing',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Cadre
+Casablanca,'Disty technologies',' Informatique',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Disty technologies',' Informatique',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +3',' CDI',Comptable
+Casablanca,'Disty technologies',' Informatique',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Disty technologies',' Distribution',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Disty technologies',' Distribution',' Logistique / Transport',' De 3 à 5 ans',' Bac +4',' CDI','Conseiller Client'
+Casablanca,'Disty technologies',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Informatique '
+Casablanca,'Disty technologies',' Informatique',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI','Conseiller Commercial '
+Casablanca,'Disty technologies',' Informatique',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable Commercial'
+Casablanca,'Disty technologies',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,'Disty technologies',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur '
+Casablanca,'Disty technologies',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur '
+Rabat,'Webhelp Maroc',' Telecom',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Casablanca,'Auto Nejma Maroc S.A.',' Automobile / Motos / Cycles',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +4',' CDI','Chef de Projet '
+'Fès ','Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Client'
+'Tanger ','Aptiv Maroc  (ex Delphi)',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Eumatech,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Scrum Master '
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Développeur '
+Casablanca,CRIT,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDD','Conseiller Client'
+Casablanca,Coface,' Recrutement / Intérim',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Aria,' Centre d\'appel',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Expert Technique '
+'Oujda ','Groupe ODM',' Pharmacie / Santé',' Gestion / Comptabilité / Finance',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Responsable Administratif '
+'Errachidia ','ORH Assessment',' Autres services',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Marketing '
+Casablanca,'CAC (Centrale Automobile Chérifienne)',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+'Errachidia ','ORH Assessment',' Autres services',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Service '
+Casablanca,'Sitel Group',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Administrateur IT'
+Casablanca,'BMCI Groupe BNP Paribas',' Banque / Finance',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Télécoms / Réseaux',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Attijariwafa bank',' Banque / Finance',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,'Air Arabia',' Aéronautique / Spatial',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Technicien
+Casablanca,'La Marocaine vie',' Assurance / Courtage',' RH / Personnel / Formation',' Débutant',' Bac +5 et plus',' Autre','Responsable RH '
+'Fès ','ALTEN Maroc',' Electro-mécanique / Mécanique',' Télécoms / Réseaux',' Débutant',' Bac +2',' Autre',Technicien
+'Fès ','ALTEN Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Rabat,'ALTEN Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'ALTEN Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Altados,' Banque / Finance',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' Freelance',Consultant
+Casablanca,Altados,' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDD',Assistant
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Animateur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDD',Analyste
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +2',' CDD',Assistant
+'Meknès ','Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +2',' CDI',Technicien
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +2',' CDI',Technicien
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'Ratp dev Casablanca',' Comptabilité / Audit',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'HP SEARCH',' Comptabilité / Audit',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Administratif '
+Casablanca,'Isossell Groupe',' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +3',' CDI','Expert UX/UI '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Isossell Groupe',' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +2',' CDI','Infographiste '
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +3',' CDI','Gestionnaire '
+Casablanca,'Eca Assurances',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Intelcia ITS',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Téléconseiller '
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' RH / Personnel / Formation',' Débutant',' Bac +3',' Autre','Responsable RH '
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Infographiste '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' Freelance','Tech Lead'
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,Altados,' Conseil / Etudes',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' Freelance','Ingénieur Testeur'
+'Meknès ','Intelcia ITS',' Offshoring / Nearshoring',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI','Team Lead '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI',Consultant
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Testeur'
+Rabat,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Consultant
+Rabat,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Consultant
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Référent technique '
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI',Analyste
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Conseiller en Assurance'
+Rabat,'DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Consultant IT'
+Rabat,'Hit Radio',' Audiovisuel',' Gestion / Comptabilité / Finance',' Débutant',' Bac +2',' Stage',Stagiaire
+Casablanca,'Société des Boissons du Maroc',' Juridique / Cabinet d’avocats',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,'Société Marocaine des Tabacs',' Agroalimentaire',' Environnement',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'ORH Assessment',' Autres services',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Rabat,Accytime,' Offshoring / Nearshoring',' Logistique / Transport',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Référent technique '
+Salé,Novec,' Energie',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Winpa Phone',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +2',' CDI','Téléconseiller '
+Casablanca,'Manpower Agences',' Centre d\'appel',' Call Centers',' De 3 à 5 ans',' Bac +3',' Autre','Conseiller Client'
+Casablanca,'Manpower Agences',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' Autre',Technicien
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Salé,Novec,' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Meknès ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,'Annour Technologies',' Informatique',' Télécoms / Réseaux',' Moins de 1 an',' Bac +3',' CDI',Technicien
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Team Lead '
+Casablanca,'Annour Technologies',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,'Annour Technologies',' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Système'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+Casablanca,'Intelcia ITS',' Centre d\'appel',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +4',' CDI',Manager
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Logistique / Transport',' Débutant',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Rabat,'Sitel Group',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+Agadir,'Manpower Agences',' Agroalimentaire',' Santé / Social',' De 5 à 10 ans',' Bac +4',' CDI','Directeur '
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Consultant
+' Berrechid ','Atlas Pharm',' Pharmacie / Santé',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' Autre',Comptable
+Casablanca,'Manpower Agences',' Autres Industries',' Informatique / Electronique',' De 3 à 5 ans',' Bac +2',' CDI',Technicien
+' Berrechid ','Manpower Agences',' Automobile / Motos / Cycles',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Système'
+'Fès ','ALTEN Maroc',' Autres services',' Achats / Supply Chain',' Débutant',' Bac +2',' Stage',Stagiaire
+Rabat,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Rabat,'Hit Radio',' Audiovisuel',' Caméraman / Monteur / Preneur de son',' Débutant',' Bac +2',' Stage',Stagiaire
+Casablanca,'HPS Maroc',' Conseil / Etudes',' Audit / Conseil',' Moins de 1 an',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'Eca Assurances',' Centre d\'appel',' Call Centers',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Commercial
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Environnement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +4',' CDI',Assistant
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Assistant
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +2',' CDI','Animateur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Environnement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Professeur '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI','Team Lead '
+'Tanger ','APM Terminals',' Recrutement / Intérim',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Lydec et SUEZ',' Energie',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé de Sécurité '
+Casablanca,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Développeur '
+Casablanca,'Label\'Vie - Carrefour Market',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Ingénieur '
+'Meknès ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,Involys,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +3',' CDI','Ingénieur Testeur'
+Salé,Welink,' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Développeur '
+Casablanca,'AKKA Technologies',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Winpa Phone',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +2',' CDI','Téléconseiller '
+Casablanca,'Atlas Pharm',' Pharmacie / Santé',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDD','Délégué médical'
+'Tanger ','Manpower Agences',' Aéronautique / Spatial',' Achats / Supply Chain',' De 10 à 20 ans',' Bac +5 et plus',' CDI',Acheteur
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Consultant
+Casablanca,'Manpower Agences',' Internet / Multimédia',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Directeur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Rabat,CDG,' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Cadre
+'Tanger ',Opus.RH,' Autres services',' Achats / Supply Chain',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Achats '
+Rabat,'INTM Mediterranée',' Assurance / Courtage',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Tanger ',Opus.RH,' Autres services',' Gestion / Comptabilité / Finance',' De 10 à 20 ans',' Bac +5 et plus',' CDI',Comptable
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+'Tanger ',Opus.RH,' Autres services',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+'Tanger ',Opus.RH,' Autres services',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'ORH Assessment',' Assurance / Courtage',' Assurance',' De 3 à 5 ans',' Bac +4',' CDI','Conseiller en Assurance'
+' Ain Harrouda ','Société Marocaine des Tabacs',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,Ventec,' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Responsable
+'Tout le Maroc','Sogea Maroc',' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Deloitte Nearshore',' Assurance / Courtage',' Assurance',' Débutant',' Bac +5 et plus',' CDI',Consultant
+Rabat,'Sogea Maroc',' BTP / Génie Civil',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Tout le Maroc','Sogea Maroc',' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Enseignement',' De 1 à 3 ans',' Bac +3',' CDI','Chargé Administratif'
+Casablanca,'ATOZMA Services',' Comptabilité / Audit',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+' Ain Harrouda ','CAC (Centrale Automobile Chérifienne)',' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI','Conseiller Client'
+Casablanca,'Manpower Agences',' Automobile / Motos / Cycles',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Adria Business & Technology',' Informatique',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Manager
+Rabat,OBS,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +2',' CDI',Technicien
+Casablanca,'CAC (Centrale Automobile Chérifienne)',' Automobile / Motos / Cycles',' Achats / Supply Chain',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'INTM Mediterranée',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac +2',' CDI','Conseiller Client'
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' CDI','Conseiller Client'
+Casablanca,'Air Arabia',' Aéronautique / Spatial',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +2',' CDI','Ingénieur '
+Rabat,'Consort Maroc',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Chargés d\'Etudes'
+'Sala al jadida','Oceane Consulting',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+Casablanca,'McDonald\'s Maroc',' Informatique',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Client'
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Groupe Adaming',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,FGT,' Agroalimentaire',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé d\'Approvisionnement'
+Casablanca,'ORH Assessment',' Autres services',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Marketing '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Marketing',' Débutant',' Bac +4',' Stage','Community Manager '
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Energie',' Production / Qualité / Sécurité / Maintenance',' Moins de 1 an',' Bac +5 et plus',' CDD','Conseiller Technique '
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Marketing',' Débutant',' Bac +4',' Stage',Assistant
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Administration des ventes / SAV',' Moins de 1 an',' Bac +2',' CDD',Assistant
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' Stage','Ingénieur '
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Gestion / Comptabilité / Finance',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Contrôleur '
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Digital Virgo',' Internet / Multimédia',' Marketing',' Moins de 1 an',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Sitel Group',' Centre d\'appel',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Assistanat de Direction / Services Généraux',' De 1 à 3 ans',' Bac +3',' CDI',Assistant
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé des Relations Entreprises'
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Audit / Conseil',' Débutant',' Bac +5 et plus',' Stage',Stagiaire
+Casablanca,'Sitel Group',' Centre d\'appel',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'Sitel Group',' Centre d\'appel',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur DevOps '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Développeur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Gestion / Comptabilité / Finance',' De 10 à 20 ans',' Bac +5 et plus',' CDI',Comptable
+'Tanger ',S3M,' Autres Industries',' Méthodes / Process / Industrialisation',' De 10 à 20 ans',' Bac +4',' CDI','Directeur '
+'Tout le Maroc',OFPPT,' Enseignement / Formation',' Enseignement',' Débutant',' Bac +3',' CDI','Formateur '
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' Débutant',' Bac +4',' Stage','Développeur '
+Rabat,Welink,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance',Consultant
+Rabat,'Fonds d\'Equipement Communal (FEC)',' Banque / Finance',' Banque',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+'Skhirat ','Label\'Vie - Carrefour Market',' Distribution',' Achats / Supply Chain',' Moins de 1 an',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Aria,' Centre d\'appel',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé de Développement'
+Casablanca,Altados,' Informatique',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Tanger ',Coficab,' Automobile / Motos / Cycles',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'Tanger ',Coficab,' Automobile / Motos / Cycles',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Société des Boissons du Maroc',' Agroalimentaire',' Achats / Supply Chain',' De 10 à 20 ans',' Bac +5 et plus',' CDI',Responsable
+Salé,Novec,' Autres services',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +2',' CDI','Chargé de Recouvrement'
+Rabat,'Excel Management Conseil',' Assurance / Courtage',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'Université Internationale de Rabat',' Autres Industries',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé Administratif'
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Santé / Social',' De 3 à 5 ans',' Bac +3',' CDI','Infirmier '
+Casablanca,'Intelcia ITS',' Autres services',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Administration des ventes / SAV',' Moins de 1 an',' Bac +2',' CDD',Assistant
+Casablanca,Majorel,' Offshoring / Nearshoring',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+'Tout le Maroc',OFPPT,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +3',' CDI','Formateur '
+'Tout le Maroc',OFPPT,' Enseignement / Formation',' Communication / Publicité / RP',' Débutant',' Bac +3',' CDI','Formateur '
+'Tout le Maroc',OFPPT,' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+'El Jadida ','Intelcia ITS',' Centre d\'appel',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +4',' CDI',Manager
+Guerssif,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +2',' CDI','Agent de facturation '
+Casablanca,OFPPT,' Banque / Finance',' Avocat / Juriste / Fiscaliste',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
+Casablanca,'Groupe Renault',' Automobile / Motos / Cycles',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Juriste '
+Salé,'Safran Engineering Services Maroc',' Aéronautique / Spatial',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+'Tout le Maroc',OFPPT,' Agence pub / Marketing Direct',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +3',' CDI','Responsable régional '
+Casablanca,OFPPT,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Cadre
+Casablanca,OFPPT,' Agence pub / Marketing Direct',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Service '
+'El Jadida ','McDonald\'s Maroc',' Centre d\'appel',' Hôtellerie / Restauration',' De 1 à 3 ans',' Bac +2',' CDI',Manager
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Assistant
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+'Tout le Maroc',OFPPT,' Transport / Messagerie / Logistique',' Achats / Supply Chain',' De 3 à 5 ans',' Bac +2',' CDI',Assistant
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Unifitel,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Client'
+'Fès ','Webhelp Maroc',' Centre d\'appel',' Administration des ventes / SAV',' Débutant',' Bac',' Autre','Conseiller Client'
+Casablanca,Leyton,' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Conseiller Commercial '
+Casablanca,'Safran Nacelles',' Autres Industries',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +2',' CDI','Chef d\'équipe '
+Rabat,'Isossell Groupe',' Centre d\'appel',' Informatique / Electronique',' Moins de 1 an',' Bac +3',' CDI','Chargé de Développement'
+Rabat,'Excel Management Conseil',' Banque / Finance',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Ingénieur '
+'Kenitra ',Stellantis,' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Casablanca,'Groupe Adaming',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Majorel,' Offshoring / Nearshoring',' Enseignement',' De 3 à 5 ans',' Bac +3',' CDD','Professeur '
+Casablanca,Msin,' Assurance / Courtage',' Audit / Conseil',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Contrôleur '
+'Tout le Maroc','Manpower Agences',' Agence pub / Marketing Direct',' Hôtellerie / Restauration',' Moins de 1 an',' Bac +2',' Autre','Chargé Administratif'
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Concepteur Développeur '
+'El Jadida ','ORH Assessment',' Autres Industries',' Audit / Conseil',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Service '
+Casablanca,'Label\'Vie - Carrefour Market',' Distribution',' Distribution',' De 5 à 10 ans',' Bac +4',' CDI','Responsable Marketing '
+Rabat,'Isossell Groupe',' Centre d\'appel',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Salé,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Téléconseiller '
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Commercial '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'Isossell Groupe',' Centre d\'appel',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Formateur '
+Casablanca,'Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Oceane Consulting',' Informatique',' Télécoms / Réseaux',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Winpa Phone',' Assurance / Courtage',' Assurance',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller en Assurance'
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Support Applicatif'
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Administration des ventes / SAV',' Débutant',' Bac',' Autre','Conseiller Client'
+Rabat,CDG,' Banque / Finance',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Analyste
+Rabat,CDG,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Analyste
+'Kenitra ','ORH Assessment',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'Manpower Agences',' Autres Industries',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +3',' Autre','Chargé Administratif'
+Casablanca,Atos,' Informatique',' RH / Personnel / Formation',' Moins de 1 an',' Bac +5 et plus',' Stage',Stagiaire
+Casablanca,'Manpower Agences',' Internet / Multimédia',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' Autre','Développeur '
+Casablanca,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +2',' CDI','Agent de facturation '
+Casablanca,'Meski Invest - Riva Industries',' BTP / Génie Civil',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +4',' CDI','Responsable RH '
+'Tanger ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +4',' CDI',Technicien
+Casablanca,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI',Commercial
+'Marrakech ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI',Commercial
+'El Jadida ','Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI',Commercial
+Agadir,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI',Commercial
+Laayoune,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI',Commercial
+'Tanger ',Opus.RH,' Autres services',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Rabat,'Auto Nejma Maroc S.A.',' Automobile / Motos / Cycles',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +2',' CDI','Hôtesse d\'Accueil '
+Casablanca,Majorel,' Offshoring / Nearshoring',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' Autre',Manager
+Rabat,Finéa,' Banque / Finance',' Banque',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chargé d\'Affaires '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Rabat,'Safran Engineering Services Maroc',' Aéronautique / Spatial',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Hôtellerie / Restauration',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Contrôleur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Environnement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Système'
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Environnement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Casablanca,Leyton,' Conseil / Etudes',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Tanger ','APM Terminals',' Energie',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Logistique / Transport',' Débutant',' Bac +5 et plus',' CDI',Analyste
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Community Manager '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Logistique / Transport',' De 3 à 5 ans',' Bac +4',' CDI',Responsable
+Rabat,Accytime,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDI','Formateur '
+Casablanca,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +3',' CDI',Assistant
+Casablanca,'Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +2',' CDI',Technicien
+Casablanca,'Manpower Agences',' Pharmacie / Santé',' Médical / Paramédical',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Assistant
+Rabat,CDG,' Banque / Finance',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Reactive Executive',' Informatique',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +4',' CDI',Commercial
+'Tanger ',Coficab,' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Deloitte Nearshore',' Banque / Finance',' Banque',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Générale routière',' BTP / Génie Civil',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +4',' CDI','Responsable Administratif '
+'Tanger ',Coficab,' Transport / Messagerie / Logistique',' Logistique / Transport',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+'Tanger ',Coficab,' Automobile / Motos / Cycles',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Royale Marocaine d\'Assurance',' Assurance / Courtage',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Salé,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Téléconseiller '
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Formateur '
+Casablanca,'O&D Services',' Assurance / Courtage',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+'Kenitra ','ORH Assessment',' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Architecte IT'
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Qualification avant Bac',' CDI','Enseignant de sport polyvalent '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Qualification avant Bac',' CDI','Animateur '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Manager
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Marketing',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Community Manager '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 1 à 3 ans',' Bac +3',' CDD',Assistant
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé des Relations Entreprises'
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur Informatique '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Technicien
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Ingénieur '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Qualification avant Bac',' CDI',Coordinateur
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Team Lead '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Agroalimentaire',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Benguerir,'Université Mohammed VI Polytechnique',' Pharmacie / Santé',' Santé / Social',' De 3 à 5 ans',' Bac +4',' CDI','Infirmier '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Enseignement',' De 5 à 10 ans',' Bac +4',' CDI','Enseignant de sport polyvalent '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Enseignement',' De 5 à 10 ans',' Qualification avant Bac',' CDI','Enseignant de sport polyvalent '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Marketing',' De 3 à 5 ans',' Qualification avant Bac',' CDI','Responsable Marketing '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chargé de Mission '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +3',' CDI','Chargé d\'Affaires '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',?,'Professeur '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Communication / Publicité / RP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chargé de Communication '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +4',' CDI',Assistant
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Coordinateur
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Achats '
+Rabat,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' Santé / Social',' De 3 à 5 ans',' Bac +3',' CDI','Infirmier '
+Benguerir,'Université Mohammed VI Polytechnique',' Enseignement / Formation',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chargé de Développement'
+Benguerir,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDD','Community Manager '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Commercial
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Enseignant de sport polyvalent '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +4',' CDI','Enseignant de sport polyvalent '
+Rabat,'Université Mohammed VI Polytechnique',' Autres services',' Enseignement',' De 3 à 5 ans',' Bac +2',' CDI','Enseignant de sport polyvalent '
+'Tanger ',Mubawab.ma,' Immobilier / Promoteur / Agence',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Commercial
+Rabat,'Oceane Consulting',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Scrum Master '
+Casablanca,'Winpa Phone',' Centre d\'appel',' Assurance',' De 3 à 5 ans',' Bac +2',' CDI','Conseiller en Assurance'
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Logistique / Transport',' Débutant',' Bac +5 et plus',' CDI','Operations Manager '
+Casablanca,'Lydec et SUEZ',' Energie',' Gestion projet / Etudes / R&D',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Consultant
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Commercial '
+Rabat,'Fonds d\'Equipement Communal (FEC)',' Autres services',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Lydec et SUEZ',' Energie',' Travaux / Chantiers / BTP',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Lydec et SUEZ',' Energie',' Travaux / Chantiers / BTP',' De 5 à 10 ans',' Bac +5 et plus',' Autre','Chef de Service '
+'Tanger ','Groupe Assu 2000',' Assurance / Courtage',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,Karinvest,' Immobilier / Promoteur / Agence',' Assistanat de Direction / Services Généraux',' De 5 à 10 ans',' Bac +2',' CDI',Assistant
+Rabat,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Client'
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +2',' CDI','Dessinateur industriel '
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Responsable maintenance '
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Directeur '
+Casablanca,Altados,' Informatique',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur infrastructure'
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Architecte IT'
+Casablanca,'Manpower Agences',' Distribution',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI','Operations Manager '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+Casablanca,'Manpower Agences',' Aéronautique / Spatial',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Manpower Agences',' Distribution',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' CDI','Développeur '
+Salé,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Consultant IT'
+Casablanca,'Auto Nejma Maroc S.A.',' Automobile / Motos / Cycles',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +2',' CDI','Hôtesse d\'Accueil '
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac',' CDI','Conseiller Client'
+Rabat,OBS,' Informatique',' Télécoms / Réseaux',' Débutant',' Bac +5 et plus',' CDI',Stagiaire
+'Tanger ','APM Terminals',' Transport / Messagerie / Logistique',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,'Lydec et SUEZ',' Energie',' Environnement',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Chef de Service '
+'Marrakech ',Alumetaux,' Distribution',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +2',' CDI',Commercial
+Casablanca,'AKKA Technologies',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' Stage',Stagiaire
+Casablanca,'Rifl Biometrics',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Rabat,'Fondation Arrawaj',' Conseil / Etudes',' Avocat / Juriste / Fiscaliste',' De 5 à 10 ans',' Bac +3',' CDI','Juriste '
+Casablanca,'Manpower Agences',' Internet / Multimédia',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Community Manager '
+Casablanca,'Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Meknès ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+'Meknès ','Meski Invest - Riva Industries',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
+'AL HOCEIMA ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI',Commercial
+'Tanger ','HP SEARCH',' Autres Industries',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +3',' CDD','Responsable IT '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Business Process Owner '
+Rabat,CDG,' Banque / Finance',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Réseau et Sécurité'
+'Tanger ','HP SEARCH',' Autres Industries',' Méthodes / Process / Industrialisation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable maintenance '
+Casablanca,Atos,' Conseil / Etudes',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Informatique '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Java J2EE'
+Casablanca,Finéa,' Banque / Finance',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,'Manpower Agences',' Internet / Multimédia',' Marketing',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Community Manager '
+'Bouskoura ','Société de Développement Local Nouaceur Développement',' BTP / Génie Civil',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Administratif '
+'Tanger ','Manpower Agences',' Automobile / Motos / Cycles',' Production / Qualité / Sécurité / Maintenance',' Moins de 1 an',' Bac +2',' CDI','Dessinateur industriel '
+'Tanger ','Manpower Agences',' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Call Centers',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de projet IT '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Etude et Développement'
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de projet IT '
+Rabat,'Université Internationale de Rabat',' Electro-mécanique / Mécanique',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,'Eca Assurances',' Centre d\'appel',' Call Centers',' Moins de 1 an',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,'Eca Assurances',' Centre d\'appel',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +4',' CDI','Chargé d\'Affaires '
+Casablanca,'Eca Assurances',' Assurance / Courtage',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Rabat,'Fondation Arrawaj',' Banque / Finance',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'Université Internationale de Rabat',' Autres Industries',' Méthodes / Process / Industrialisation',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+Casablanca,Majorel,' Offshoring / Nearshoring',' Logistique / Transport',' Débutant',' Bac +3',' Stage',Stagiaire
+Rabat,'Université Internationale de Rabat',' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +3',' CDI',Technicien
+'Bouskoura ','Société de Développement Local Nouaceur Développement',' Autres services',' Assistanat de Direction / Services Généraux',' De 5 à 10 ans',' Bac +2',' CDI',Assistant
+Salé,Novec,' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' Freelance','Développeur '
+'Sala al jadida','Sofrecom Services Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,'Manpower Agences',' Aéronautique / Spatial',' Production / Qualité / Sécurité / Maintenance',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur '
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI','Tech Lead'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Ingénieur Système'
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +4',' CDI','Ingénieur DevOps '
+Agadir,'Webhelp Maroc',' Centre d\'appel',' Call Centers',' Débutant',' Bac',' Autre','Conseiller Client'
+'Tanger ','Groupe Assu 2000',' Assurance / Courtage',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+'Bouskoura ','Société de Développement Local Nouaceur Développement',' BTP / Génie Civil',' Gestion projet / Etudes / R&D',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Intelcia ITS',' Offshoring / Nearshoring',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +2',' CDI','Contrôleur '
+Casablanca,'Disty technologies',' Distribution',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Responsable
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur Support Applicatif'
+Casablanca,'Groupe Adaming',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Atos,' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' Autre','Développeur '
+Casablanca,'A.LAZRAK Immobilier',' Immobilier / Promoteur / Agence',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Conseiller Commercial '
+'Tanger ','Groupe Assu 2000',' Assurance / Courtage',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,'Deloitte Nearshore',' Comptabilité / Audit',' Audit / Conseil',' Débutant',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Manpower Agences',' Transport / Messagerie / Logistique',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI','Téléconseiller '
+Casablanca,'Winpa Phone',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac',' CDI','Téléconseiller '
+Casablanca,'Deloitte Nearshore',' Autres services',' RH / Personnel / Formation',' Moins de 1 an',' Bac +5 et plus',' CDI','Formateur '
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+'Mohammedia ',CDG,' BTP / Génie Civil',' Travaux / Chantiers / BTP',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Casablanca,'Groupe Adaming',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Formateur '
+Casablanca,'Groupe Adaming',' Informatique',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Formateur '
+Casablanca,'Groupe Adaming',' Informatique',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 10 à 20 ans',' Bac +2',' CDI','Chef Atelier'
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 10 à 20 ans',' Bac +4',' CDI','Chef Atelier'
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Enseignement',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Deloitte Nearshore',' Conseil / Etudes',' Informatique / Electronique / Multimédia / Internet',' Moins de 1 an',' Bac +3',' CDI',Analyste
+Salé,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Tech Lead'
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+'Fès ','CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Kenitra ',Stellantis,' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Contrôleur de Gestion'
+Rabat,'Hit Radio',' Audiovisuel',' Journalisme / Traduction',' Débutant',' Bac +3',' Stage',Stagiaire
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance',Analyste
+Casablanca,Leyton,' Recrutement / Intérim',' RH / Personnel / Formation',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'El Jadida ','ORH Assessment',' Autres Industries',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de Service '
+'Kenitra ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+Guerssif,'Meski Invest - Riva Industries',' BTP / Génie Civil',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+Casablanca,Opus.RH,' Autres services',' Commercial / Vente / Export',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Commercial'
+Casablanca,'ORH Assessment',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Système'
+Casablanca,'Deloitte Nearshore',' Informatique',' Informatique / Electronique',' Débutant',' Bac +5 et plus',' Stage',Stagiaire
+Casablanca,'DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +4',' CDI','Administrateur IT'
+'El Jadida ','ORH Assessment',' Energie',' Achats / Supply Chain',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable Achats '
+'Bouskoura ','Foods and Goods',' Distribution',' Logistique / Transport',' De 5 à 10 ans',' Bac +2',' CDI',Responsable
+Casablanca,'Intelcia ITS',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Casablanca,'Manpower Agences',' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI',Commercial
+Casablanca,Leyton,' Conseil / Etudes',' Gestion projet / Etudes / R&D',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+Guerssif,'Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI',Commercial
+Casablanca,'KLK Khayatey Living',' Immobilier / Promoteur / Agence',' Avocat / Juriste / Fiscaliste',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Juriste '
+Casablanca,'Manpower Agences',' Banque / Finance',' Gestion / Comptabilité / Finance',' De 1 à 3 ans',' Bac +3',' CDI','Conseiller Commercial '
+Casablanca,'Manpower Agences',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' Autre','Conseiller Client'
+Casablanca,Ecolys,' Distribution',' Hôtellerie / Restauration',' De 10 à 20 ans',' Bac +3',' CDI','Operations Manager '
+Casablanca,'Manpower Agences',' Banque / Finance',' Audit / Conseil',' De 5 à 10 ans',' Bac +4',' CDI',Auditeur
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +4',' CDI','Ingénieur '
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+'Oujda ','SQLI Maroc',' Informatique',' Informatique / Electronique',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Ingénieur Testeur'
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de projet IT '
+Casablanca,'Manpower Agences',' Transport / Messagerie / Logistique',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDI',Commercial
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI',Consultant
+Salé,'DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +4',' CDI','Référent technique '
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Consultant
+'Sala al jadida','DXC Technology Maroc',' Informatique',' Gestion / Comptabilité / Finance',' De 5 à 10 ans',' Bac +4',' CDI','Contrôleur de Gestion'
+Casablanca,'AKKA Technologies',' Aéronautique / Spatial',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +2',' CDI',Technicien
+Casablanca,'Deloitte Nearshore',' Autres Industries',' Audit / Conseil',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Auditeur
+Casablanca,'Groupe Renault',' Automobile / Motos / Cycles',' Communication / Publicité / RP',' Débutant',' Bac +2',' Stage',Stagiaire
+Casablanca,Majorel,' Offshoring / Nearshoring',' Logistique / Transport',' Débutant',' Bac +2',' Stage',Stagiaire
+Casablanca,'Manpower Agences',' Automobile / Motos / Cycles',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +4',' CDI',Commercial
+Casablanca,'Pharma Pilot',' Transport / Messagerie / Logistique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Analyste
+Casablanca,'Manpower Agences',' Juridique / Cabinet d’avocats',' Avocat / Juriste / Fiscaliste',' De 1 à 3 ans',' Bac +3',' CDI',Assistant
+Casablanca,'Manpower Agences',' Banque / Finance',' Banque',' De 3 à 5 ans',' Bac +3',' CDI',Cadre
+Casablanca,'Manpower Agences',' Distribution',' Commercial / Vente / Export',' De 1 à 3 ans',' Bac +3',' Autre',Commercial
+Casablanca,'Lydec et SUEZ',' Energie',' RH / Personnel / Formation',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Responsable
+Casablanca,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur Java J2EE'
+Casablanca,Atos,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +4',' CDI',Consultant
+Casablanca,'ORH Assessment',' Assurance / Courtage',' Call Centers',' De 3 à 5 ans',' Bac +3',' CDI',Commercial
+Salé,'DXC Technology Maroc',' Informatique',' RH / Personnel / Formation',' Débutant',' Bac +2',' Stage','Responsable RH '
+Casablanca,Dekra,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Comicom,' Automobile / Motos / Cycles',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
+'Tanger ','Manpower Agences',' Transport / Messagerie / Logistique',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Ingénieur '
+'Tanger ','Manpower Agences',' Transport / Messagerie / Logistique',' Production / Qualité / Sécurité / Maintenance',' De 5 à 10 ans',' Bac +3',' CDI','Chef Atelier'
+Casablanca,'Sitel Group',' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Commercial '
+Casablanca,Altados,' Conseil / Etudes',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Consultant IT'
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Ingénieur Système'
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Team Lead '
+'Oujda ','Intelcia ITS',' Centre d\'appel',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI','Team Lead '
+Casablanca,'Intelcia ITS',' Centre d\'appel',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +3',' CDI','Team Lead '
+Casablanca,Altados,' Informatique',' Télécoms / Réseaux',' De 1 à 3 ans',' Bac +5 et plus',' CDI','Développeur '
+Casablanca,Altados,' Conseil / Etudes',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Expert Technique '
+Casablanca,Altados,' Banque / Finance',' Informatique / Electronique / Multimédia / Internet',' De 5 à 10 ans',' Bac +5 et plus',' Freelance','Chef de Projet '
+'El Jadida ','Meski Invest - Riva Industries',' Automobile / Motos / Cycles',' Administration des ventes / SAV',' De 10 à 20 ans',' Bac +5 et plus',' CDI','Directeur '
+Rabat,'CGI Technologies et Solutions Maroc',' Informatique',' Informatique / Electronique',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Chef de projet IT '
+Rabat,'Atlas Pharm',' Pharmacie / Santé',' Commercial / Vente / Export',' De 3 à 5 ans',' Bac +2',' CDD','Délégué médical'
+'Marrakech ','ORH Assessment',' Autres services',' Assistanat de Direction / Services Généraux',' De 3 à 5 ans',' Bac +3',' CDI',Assistant
+'Kenitra ','ORH Assessment',' Informatique',' Informatique / Electronique',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'CAC (Centrale Automobile Chérifienne)',' Automobile / Motos / Cycles',' Méthodes / Process / Industrialisation',' De 5 à 10 ans',' Bac +5 et plus',' CDI',Manager
+Casablanca,'Deloitte Nearshore',' Agence pub / Marketing Direct',' Call Centers',' Moins de 1 an',' Bac +3',' CDI',Coordinateur
+Casablanca,Leyton,' Informatique',' Télécoms / Réseaux',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Administrateur IT'
+'Kenitra ',Stellantis,' Automobile / Motos / Cycles',' RH / Personnel / Formation',' De 5 à 10 ans',' Bac +5 et plus',' CDI','Responsable RH '
+'Oujda ','Auto Nejma Maroc S.A.',' Automobile / Motos / Cycles',' Administration des ventes / SAV',' De 1 à 3 ans',' Bac +2',' CDI','Conseiller Client'
+'Meknès ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +3',' CDI','Animateur '
+Casablanca,Altados,' Informatique',' Informatique / Electronique / Multimédia / Internet',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Responsable RH '
+Rabat,'Université Internationale de Rabat',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +5 et plus',' CDI',Comptable
+Rabat,'Université Internationale de Rabat',' Enseignement / Formation',' Enseignement',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Professeur '
+Casablanca,Aria,' Centre d\'appel',' Call Centers',' De 1 à 3 ans',' Bac +4',' CDI',Manager
+Casablanca,Ventec,' Energie',' Travaux / Chantiers / BTP',' De 3 à 5 ans',' Bac +5 et plus',' CDI','Chef de Projet '
+Casablanca,'Maroc Climate and Security (MCS) - Carrier',' Autres services',' Call Centers',' De 1 à 3 ans',' Bac +3',' CDD','Chargé de Recouvrement'
+'El Jadida ','Meski Invest - Riva Industries',' Métallurgie / Sidérurgie',' Production / Qualité / Sécurité / Maintenance',' De 1 à 3 ans',' Bac +2',' CDI','Animateur '
+'El Jadida ','Meski Invest - Riva Industries',' Comptabilité / Audit',' Gestion / Comptabilité / Finance',' De 3 à 5 ans',' Bac +3',' CDI',Comptable
