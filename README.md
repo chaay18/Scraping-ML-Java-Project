@@ -12,7 +12,7 @@ This a Java desktop application where you can scrape a job offers website and us
 
 <img width="1440" alt="Capture d’écran 2023-12-12 à 12 30 52" src="https://github.com/chaay18/Scraping-ML-Java-Project/assets/93160283/c682295b-ba83-42c7-a72b-a93d6697bed0">
 
-### ****** Menu *****
+### ****** Menu ******
 
 You can either choose to scrape new data or go directly to the machine learning part (here you will already cleaned and existing data stored in DB  )
 
@@ -22,7 +22,7 @@ You can either choose to scrape new data or go directly to the machine learning 
 
 <img width="1440" alt="Capture d’écran 2023-12-12 à 15 36 42" src="https://github.com/chaay18/Scraping-ML-Java-Project/assets/93160283/6e864e60-e41f-4720-818a-ee48450fc245">
 
-#### * Scraping results are stored in the database 
+#### ==> Scraping results are stored in the database 
 <img width="1440" alt="Capture d’écran 2023-12-12 à 15 37 57" src="https://github.com/chaay18/Scraping-ML-Java-Project/assets/93160283/c355a1f1-f669-45c7-ada8-d8b3962c97c4">
 
 ### Machine learning 
