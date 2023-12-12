@@ -2,9 +2,11 @@
 This a Java desktop application where you can scrape a job offers website and use some machine learning algorithms on the data you collected after preparing it and cleaning.
 
 ### Tools
---> Scraping: jsoup
+--> Scraping: jsoup 
+
 --> ML library used: weka
--->scraped website: https://www.rekrute.com/
+
+--> Scraped website: https://www.rekrute.com/
 
 ### Sign up / Sign in
 
